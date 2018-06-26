@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Nautica';
-	src: url("static/css/Nautica.ttf");
+	src: url("/static/css/Nautica.ttf");
 }
 
 html, body {
@@ -9,7 +9,7 @@ html, body {
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("background.jpg");
+	background-image: url("/static/img/background.jpg");
 }
 
 .header {
