@@ -1,64 +1,73 @@
 @font-face {
-	font-family: 'Nautica';
-	src: url("/static/fonts/Nautica.ttf");
+    font-family: 'Nautica';
+    src: url("/static/fonts/Nautica.ttf");
 }
 
 html, body {
-	min-width: 99%;
-	max-width: 100%;
-	min-height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("/static/img/background.jpg");
+    min-width: 99%;
+    max-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/static/img/background.jpg");
 }
 
 .header {
-	width: 100%;
-	height: 10%;
-	background-color: rgba(254, 254, 254, 0.5);
-	display: inline;
-	z-index: 1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	border-bottom: solid black 5px;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(254, 254, 254, 0.5);
+    display: inline;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: solid black 5px;
 }
 
 #menu > div {
-	min-height: auto;
-	width: auto;
-	background-color: #222;
-	display: inline-block;
-	float: right;
-	margin-right: 1%;
-	margin-top: 1%;
-	font-size: 20px;
-	color: #fff;
-	padding:7px;
+    height: 35px;
+    width: 80px;
+    background-color: #222;
+    display: inline-block;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 25px;
+    color: #fff;
+    padding:8px;
 }
 
+
 #title {
-	width: auto;
-	float: left;
-	margin-left: 7%;
-	margin-top: 1%;
-	font-size: 60px;
-	font-family: "Nautica";
+    width: auto;
+    float: left;
+    margin-left: 7%;
+    margin-top: 1%;
+    font-size: 60px;
+    font-family: "Nautica";
 }
 
 .footer {
-	position: fixed;	
-	bottom: 0;
-	margin: 0px;
-	padding: 0px;
-	max-height: 10%;
-	max-width: 100%;
-	min-width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    max-height: 10%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .footer > p {
-	margin-left: 40%;
-	color: #fff;
+    margin-left: 40%;
+    color: #fff;
+}
+.header> div> a{
+    text-decoration: none;
+    color: #000;
+}
+ #menu> div> a {
+    text-decoration: none;
+    color: #fff;
 }
